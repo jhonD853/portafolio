@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px 10%;
+  background-color: #2C3E50;
+  justify-content: space-between;
+}
+
+.izquierda{
+  color: #fff;
+  font-weight: 900;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+nav ul li a{
+  color: #fff;
+  display: block;
+}
+.boton{
+  border: none;
+  border-radius: 5px;
+  background: green;
+  
+
+}
+.boton:hover{
+  background: #9A9292;
+  transition: .5s;
+  font-size: 20px;
+}
+li:hover{
+  font-size: 20px;
+  transition: .5s;
+  background: black;
+
+
+}
+
+.imagen{
+  float: right;
+  margin-right: 125px;
+  margin-top: -200px;
+}
+
+.principal{
+  padding-top: 180px;
+  padding-left: 100px;
+  font-size: 25px;
+}
+p{
+  margin: 15px;
+}
+button{
+  color: #0099CC;
+  background: transparent;
+  border: 2px solid #0099CC;
+  border-radius: 6px;
+  border: none;
+      color: rgb(0, 0, 0);
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+button:hover{
+  background-color: #008CBA;
+}
